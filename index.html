@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>canvas-demo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<canvas id="canvas" width="300" height="300"></canvas>
+
+<div id="options" class="options">
+    <svg class="icon active" aria-hidden="true" id="pen">
+        <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true" id="eraser">
+        <use xlink:href="#icon-eraser"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true" id="save">
+        <use xlink:href="#icon-Save"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true" id="claer">
+        <use xlink:href="#icon-custom-clear"></use>
+    </svg>
+</div>
+
+<ol class="colors">
+    <li id="black" class="black active"></li>
+    <li id="red" class="red"></li>
+    <li id="green" class="green"></li>
+    <li id="blue" class="blue"></li>
+</ol>
+
+<ol class="size">
+    <li id="thin" class="thin active"></li>
+    <li id="thick" class="thick"></li>
+</ol>
+</body>
+
+<script src="./main.js" type="text/javascript"></script>
+<script src="//at.alicdn.com/t/font_1831133_9hblvb6nlqi.js"></script>
+</html>
